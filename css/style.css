@@ -131,13 +131,22 @@ div.col-left-header{
 section.maintext{
   width: calc(100% - 40% - 40px);
   margin:0 20px;
-
 }
 
 div.center-text{
   width: 100%;
-  height: 300px;
-  background-color: purple;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+}
+.center-text h1{
+  text-transform: uppercase;
+  text-shadow: 2px 2px grey;
+  margin-bottom: 20px;
+}
+
+.center-text p{
+  line-height: 24px;
 }
 
 div.box-right{
