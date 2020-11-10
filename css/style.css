@@ -13,6 +13,10 @@ a{
   color: green;
 }
 
+h1,h2{
+  color:rgb(74, 60, 42);
+}
+
 .container{
   width: 1000px;
   margin: auto;
@@ -163,6 +167,22 @@ div.box-right{
 
 footer{
   width: 100%;
-  height: 100px;
-  background-color: lightblue;
+  background-color: white;
+}
+
+.copyright{
+  text-align: center;
+  color: lightgrey;
+}
+.copyright span{
+  font-style: italic;
+}
+
+.facebook, .instagram, .github{
+  display: inline-block;
+  margin: 25px 70px;
+}
+
+.social i{
+  font-size: 30px;
 }
