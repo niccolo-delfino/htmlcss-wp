@@ -4,18 +4,49 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url(../img/natural-pattern.png);
+}
+
 .container{
-  width: 80vw;
+  width: 1000px;
   margin: auto;
   padding: 10px;
 }
-header{
+/* header{
   height: 300px;
-  background-color: yellow;
+  background-color: red;
+} */
+
+.header-top{
+  height: 360px;
+  background-image: url(../img/natural-header.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid white;
+  position: relative;
+}
+
+.header-top-image{
+width: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center
+}
+
+.header-top-image img{
+  width: 70%;
+}
+
+.header-top-image h2{
+  color: white;
+  text-transform: uppercase;
 }
 
 main{
-  margin-top: 10px;
+  margin-top: 20px;
   /* background-color: green; */
 }
 main::after{
