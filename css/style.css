@@ -10,6 +10,7 @@ body{
 
 a{
   text-decoration: none;
+  color: green;
 }
 
 .container{
@@ -79,13 +80,29 @@ main::after{
   display: table;
   clear: both;
 }
+.col-left-header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .col-left{
   width: 20%;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px
 }
+
+ul.col-left-menu{
+  list-style: none;
+}
+
+ul.col-left-menu li{
+  margin: 10px
+}
+
 .float-left{
   float: left;
-  margin-right: 20px
 }
 
 .float-right{
@@ -93,14 +110,28 @@ main::after{
   float: right;
 }
 
-div.box-left{
+div.col-left-header{
   width: 100%;
-  height: 400px;
-  background-color: pink;
+  margin-bottom: 10px;
+}
+
+.col-left-icon{
+  width: 20%;
+}
+
+.col-left-icon i{
+  font-size: 30px;
+  color: orange;
+}
+
+.col-left-title{
+  width: 80%;
 }
 
 section.maintext{
   width: calc(100% - 40% - 40px);
+  margin:0 20px;
+
 }
 
 div.center-text{
