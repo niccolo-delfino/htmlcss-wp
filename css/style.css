@@ -17,10 +17,15 @@ h1,h2{
   color:rgb(74, 60, 42);
 }
 
+h1{
+  font-size: 30px;
+}
+
 .container{
   width: 1000px;
   margin: auto;
   padding: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 /* header{
   height: 300px;
